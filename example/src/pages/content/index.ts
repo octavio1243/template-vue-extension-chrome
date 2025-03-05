@@ -1,5 +1,5 @@
 
 import { createApp } from 'vue';
-import Popup from '../popup/popup.vue';
+import HelloWorld from '../../components/HelloWorld.vue';
 
-createApp(Popup).mount('body');
+createApp(HelloWorld).mount('body');

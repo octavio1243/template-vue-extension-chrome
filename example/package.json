@@ -4,11 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "serve": "cross-env NODE_ENV=development vite build --watch",
-    "dev": "cross-env CRX_ENV=development run-p dev:*",  
-    "dev:main": "vite build --config vite.main.config.ts --watch",
-    "dev:content": "vite build --config vite.content.config.ts --watch",
-    "dev:manifest": "vite build --config vite.manifest.config.ts --watch",
+    "dev": "cross-env NODE_ENV=development vite build --watch",
     "build": "vue-tsc && vite build"
   },
   "dependencies": {
